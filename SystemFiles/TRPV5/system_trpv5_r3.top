@@ -1,0 +1,39 @@
+#include "toppar/martini_v2.2.itp"
+#include "toppar/martini_v2.0_brain_complex_b1.itp"
+#include "toppar/martini_v2.0_PAP6_02.itp"
+#include "toppar/martini_v2.0_DIPE_02.itp"
+#include "toppar/martini_v2.0_ions.itp"
+#include "toppar/PROA_P.itp"
+#include "toppar/PROB_P.itp"
+#include "toppar/PROC_P.itp"
+#include "toppar/PROD_P.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>CHOL:POPC:PAPC:POPE:DIPE:DPSM=16.0:12.0:6.0:3.0:1.0:12.0 LowerLeaflet>CHOL:POPC:PAPC:POPE:D>
+
+[ molecules ]
+; name  number
+PROA_P        1
+PROB_P        1
+PROC_P        1
+PROD_P        1
+CHOL           484
+POPC           363
+PAPC           181
+POPE            90
+DIPE            30
+DPSM           363
+CHOL           437
+POPC           201
+PAPC           100
+POPE            67
+DIPE           235
+DPSM           168
+PAPS           235
+PAP6            16
+POPA            16
+PAP1            16
+W           140691
+NA+           1989
+CL-           1554
